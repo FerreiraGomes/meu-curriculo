@@ -1,0 +1,125 @@
+
+body{
+    background-color: #cecccc;
+    position: absolute;
+    padding: 10%;
+}
+.Espaço {
+    border-radius: 5px;
+     width: 100%;
+     background-color: #ffffff;
+     height: 400px;
+     margin: auto;
+}
+.texto{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: auto;
+    color: #656565;
+}
+.Foto-perfil{
+    position: relative;
+    border-radius: 100%;
+    max-width: 180px;
+    max: 200px;
+    border: 1px solid black;
+    margin: auto;
+    transform: translate(235%,-40%);
+}
+.redes-sociais ul li{
+    display: inline;
+    margin: auto;
+    padding: 20px;
+    max-width: 150px;
+    margin-left: 35px;
+    margin-right: 15px;
+}
+.redes-sociais ul{
+    margin-left: 280px;
+    margin-top: -50px;
+}
+.botões ul{
+    text-decoration: none;
+    margin-left: 280px;
+    margin-bottom: 200px;
+    padding: 10px;
+}
+.Titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #525151;
+    margin: auto;
+    font-size: 23px;
+    font-weight: bolder;
+    margin-left: 370px;
+}
+.Oba{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #4e4e4e;
+}
+.Cs{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left: 600px;
+    margin-top: -141px;
+    color: #4e4e4e;
+}
+.Mb{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: -50px;
+    color: #4e4e4e;
+}
+.Rm{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left: 600px;
+    margin-top: -50px;
+    color: #4e4e4e;
+}
+h2{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #4e4e4e;
+}
+.contatos{
+    color: #ebe3e3;
+    font-size: 18px;
+    font-family: Century Gothic;
+}
+.body2{
+    background-image: url(FT_PAISAGEM.jpg)
+}
+.Botton1{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4e4e4e;
+    text-decoration: none;
+    border: 1px solid #e0e0e000;
+    width: 160px;
+    text-align: center;
+    padding: 18px;
+    margin-left: 300px;
+    color: #ebe3e3;
+    border-radius: 8px;
+    transition: all 0.5s;
+}
+.Botton2{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4e4e4e;
+    color: #ebe3e3;
+    text-decoration: none;
+    border: 1px solid #0000;
+    width: 180px;
+    text-align: center;
+    padding: 18px;
+    margin-left: 70px;
+    border-radius: 8px;
+    transition: all 0.5s;
+}
+.Botton1:hover, .Botton2:hover{
+    background-color: #9a00ee;
+    color: black;
+}
